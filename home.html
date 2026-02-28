@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>Growflix | Growcasts, Webinars e Conteúdos de Tecnologia</title>
+
+      <meta
+         name="description"
+         content="Growflix é a plataforma da Growdev com growcasts, webinars e conteúdos de tecnologia para quem quer evoluir na carreira dev."
+      />
+
+      <!-- Bootstrap CSS for styling and components -->
+      <link
+         rel="stylesheet"
+         href="./assets/libs/Bootstrap-5.3.8/css/bootstrap.min.css"
+      />
+
+      <!-- Main project CSS -->
+      <link rel="stylesheet" href="./css/styles.css" />
+
+      <!-- Favicon SVG (browser tab icon) -->
+      <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+
+      <!-- PNG fallback for favicon -->
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="/assets/images/favicon-32.png"
+      />
+   </head>
+
+   <body>
+      <div class="app-frame">
+         <!-- SCROLLABLE CONTENT -->
+         <div class="page-content">
+            <!-- ========================= NAVBAR ========================= -->
+            <header>
+               <nav
+                  class="container-fluid navbar navbar-expand-md navbar-dark position-absolute w-100 px-3 m-0"
+               >
+                  <a class="navbar-brand me-3 p-0 mt-0" href="./index.html">
+                     <img
+                        src="./assets/images/logo-growflix.svg"
+                        alt="Growdev Logo"
+                        class="logo-home"
+                     />
+                  </a>
+
+                  <button
+                     class="navbar-toggler d-md-none ms-auto"
+                     type="button"
+                     data-bs-toggle="collapse"
+                     data-bs-target="#mobileMenu"
+                     aria-controls="mobileMenu"
+                     aria-expanded="false"
+                     aria-label="Toggle navigation"
+                  >
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div
+                     class="collapse navbar-collapse d-md-block"
+                     id="mobileMenu"
+                  >
+                     <ul
+                        class="navbar-nav d-flex flex-md-row flex-column align-items-start mb-0 m-0"
+                     >
+                        <li class="nav-item me-md-3">
+                           <a
+                              class="nav-link text-white p-0 mt-2"
+                              href="./index.html"
+                           >
+                              Início
+                           </a>
+                        </li>
+
+                        <li class="nav-item me-md-3">
+                           <a
+                              class="nav-link footer-text p-0 mt-2"
+                              href="#Growcast"
+                           >
+                              Growcast [Episódios]
+                           </a>
+                        </li>
+
+                        <li class="nav-item me-md-3">
+                           <a
+                              class="nav-link footer-text p-0 mt-2"
+                              href="#Flutter"
+                           >
+                              Webinar em Flutter
+                           </a>
+                        </li>
+
+                        <li class="nav-item me-md-3">
+                           <a
+                              class="nav-link footer-text p-0 mt-2"
+                              href="#UXUI"
+                           >
+                              Jornada UX/UI
+                           </a>
+                        </li>
+
+                        <li class="nav-item">
+                           <a
+                              class="nav-link footer-text p-0 mt-2"
+                              href="#Diversos"
+                           >
+                              Diversos
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+            </header>
+
+            <!-- ========================= MAIN CONTENT ========================= -->
+            <main>
+               <section class="bg-home" id="slider">
+                  <div class="cta-container">
+                     <h5 class="cta-h5 d-none d-md-block">PODCAST</h5>
+                     <h1 class="cta-h1 d-none d-md-block">GROWCAST</h1>
+
+                     <a id="cta-btn" href="#Growcast">
+                        <button
+                           type="button"
+                           class="btn btn-light cta-button mb-5"
+                        >
+                           <img
+                              src="assets/libs/Bootstrap-5.3.8/icons/play-fill.svg"
+                              alt="Play icon of CTA button"
+                           />
+                           Assistir
+                        </button>
+                     </a>
+                  </div>
+               </section>
+
+               <!-- Title populated via JS -->
+               <h2 class="section-title mb-0"></h2>
+
+               <section class="mt-0" id="Growcast"></section>
+               <section class="section-gap" id="Flutter"></section>
+               <section class="section-gap" id="UXUI"></section>
+               <section class="section-gap" id="Diversos"></section>
+            </main>
+
+            <!-- ========================= FOOTER ========================= -->
+            <footer class="content-section content-section-footer">
+               <div class="container">
+                  <div class="row ms-1">
+                     <div class="col-12">
+                        <p class="fs-6 mt-5 mb-5 footer-color">
+                           Dúvidas? Ligue 0800 591 8942
+                        </p>
+                     </div>
+
+                     <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+                        <p class="footer-text">Perguntas frequentes</p>
+                        <p class="footer-text">Relações com investidores</p>
+                        <p class="footer-text">Formas de assistir</p>
+                        <p class="footer-text">Informações corporativas</p>
+                        <p class="footer-text">Só na Growflix</p>
+                     </div>
+
+                     <div class="col-6 col-sm-3 col-md-3 col-lg-3 mb-5">
+                        <p class="footer-text">Central de Ajuda</p>
+                        <p class="footer-text">Carreiras</p>
+                        <p class="footer-text">Termos de Uso</p>
+                        <p class="footer-text">Entre em contato</p>
+                     </div>
+
+                     <div class="col-6 col-sm-3 col-md-3 col-lg-3 mt-4 mt-sm-0">
+                        <p class="footer-text">Conta</p>
+                        <p class="footer-text">Resgatar cartão pré-pago</p>
+                        <p class="footer-text">Privacidade</p>
+                        <p class="footer-text">Teste de velocidade</p>
+                     </div>
+
+                     <div class="col-6 col-sm-3 col-md-3 col-lg-3 mt-4 mt-sm-0">
+                        <p class="footer-text">Media Center</p>
+                        <p class="footer-text">Comprar cartão pré-pago</p>
+                        <p class="footer-text">Preferências de cookies</p>
+                        <p class="footer-text">Avisos legais</p>
+                     </div>
+
+                     <div class="col-12 mt-4">
+                        <p class="fs-6 footer-color">Growflix Growdev</p>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+         </div>
+      </div>
+
+      <script src="./assets/libs/Bootstrap-5.3.8/js/bootstrap.bundle.min.js"></script>
+      <script src="./js/script.js"></script>
+   </body>
+</html>

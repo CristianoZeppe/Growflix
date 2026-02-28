@@ -1,0 +1,24 @@
+<svg
+  width="120"
+  height="160"
+  viewBox="0 0 120 160"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Letra G estilo Netflix"
+>
+
+  <!-- Letra G estilo Netflix (vermelho) -->
+  <text
+    x="60"
+    y="120"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="140"
+    font-weight="900"
+    fill="#e50914"
+  >
+    G
+  </text>
+
+</svg>
