@@ -36,8 +36,10 @@ body {
 
    overflow-x: hidden; /* prevents accidental horizontal scroll */
    overflow-y: auto; /* allows natural vertical scroll */
-   padding-bottom: 2.5px;
-   padding-left: 2.5px;
+   /* padding-bottom: 2.5px;
+   padding-left: 2.5px; */
+   padding-bottom: 0.15vw;
+   padding-left: 0.15vw;
 }
 
 /* =========================================
