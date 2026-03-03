@@ -263,6 +263,7 @@ img {
 ====================================================== */
 .accordion-responsive {
    margin-inline: 1.2rem;
+   padding-right: 18px;
 }
 
 .accordion-text-responsive {
