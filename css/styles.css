@@ -37,17 +37,6 @@ body {
 
    overflow-x: hidden; /* prevents accidental horizontal scroll */
    overflow-y: auto; /* allows natural vertical scroll */
-   padding-bottom: 0;
-   padding-left: 0;
-}
-
-/* keeping paddings only on large screens */
-@media (min-width: 968px) {
-   html,
-   body {
-      padding-bottom: 0.15vw;
-      padding-left: 0.15vw;
-   }
 }
 
 /* =========================================
@@ -57,16 +46,8 @@ body {
    position: relative; /* creates stacking context for absolute children */
    width: 100%;
    height: 100%;
-   border-radius: 0;
    overflow: hidden; /* prevents content from leaking outside the frame */
    background-color: var(--black);
-}
-
-/* keeping border radius only on large screens */
-@media (min-width: 968px) {
-   .app-frame {
-      border-radius: 8px 0 0 8px;
-   }
 }
 
 /* =========================================
