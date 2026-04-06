@@ -24,6 +24,13 @@
 /* =========================================
    HTML AND BODY
 ========================================= */
+@media (min-width: 968px) {
+   html,
+   body {
+      padding-left: 0;
+   }
+}
+
 html,
 body {
    width: 100%;
