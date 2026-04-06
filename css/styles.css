@@ -24,12 +24,6 @@
 /* =========================================
    HTML AND BODY
 ========================================= */
-@media (min-width: 968px) {
-   html,
-   body {
-      padding-left: 0;
-   }
-}
 
 html,
 body {
@@ -43,8 +37,16 @@ body {
 
    overflow-x: hidden; /* prevents accidental horizontal scroll */
    overflow-y: auto; /* allows natural vertical scroll */
-   padding-bottom: 0.15vw;
-   padding-left: 0.15vw;
+   padding-bottom: 0;
+   padding-left: 0;
+}
+
+@media (min-width: 968px) {
+   html,
+   body {
+      padding-bottom: 0.15vw;
+      padding-left: 0.15vw;
+   }
 }
 
 /* =========================================
